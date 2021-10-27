@@ -8,6 +8,9 @@ header{
     background-color: black;
 }
 
+/* main */
+
+
 
 
 /* debug */
@@ -26,4 +29,9 @@ header{
 .debug #jumbotron{
     height: 500px;
     background-color: darkcyan;
+}
+
+.debug #it_takes_two{
+    height: 450px;
+    background-color: darkgray;
 }
