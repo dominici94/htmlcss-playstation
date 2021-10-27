@@ -18,9 +18,9 @@ header{
 }
 
 .debug .box{
-    height: 50px;
-    width: 50px;
+    height: 100px;
     background-color: cornflowerblue;
+    border: 1px solid black;
 }
 
 .debug #jumbotron{
