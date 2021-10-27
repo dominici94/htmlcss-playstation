@@ -8,18 +8,33 @@
     <link rel="stylesheet" href="CSS/style.css">
     <title>Playstation</title>
 </head>
-<body>
+<body class="debug">
     <!-- inizio header -->
     <header>
 
         <!-- inizio header top -->
         <section id="header_top">
+            <div class="container-fluid text-uppercase text-white text-end">
+                <h2>Sony</h2>
+                <!-- mb-0 a h2 se voglio togliere il margine tra header top e bottom -->
+                <!-- cambiare il font scritta sony -->
+            </div>
 
         </section>
         <!-- fine header top -->
 
         <!-- inizio header bottom -->
         <section id="header_bottom">
+            <!-- xs-sm-md logo sony a sx hamburger menu a dx -->
+            <!-- lg  2 nav  -->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="box"></div>
+                    </div>
+                </div>
+
+            </div>
 
         </section>
         <!-- fine header bottom -->
@@ -28,7 +43,17 @@
     <!-- fine header -->
 
     <!-- inizio jumbotron -->
-    <section id="jumbotron">
+    <section id="jumbotron" class="position-relative">
+        <!-- background image che si allarga e rimane centrale responsive con h2, p e a su 12 colonne ma da lg opccupa solo 4 colonne  -->
+        <div class="container position-absolute bottom-0 start-0 pb-3">
+            <div class="row text-white">
+                <div class="col-12 col-lg-4">
+                    <h2>lorem</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos doloribus dicta magni, harum eligendi quibusdam perferendis eius sit architecto odio nemo accusamus adipisci possimus fuga labore molestias laborum nulla autem?</p>
+                    <a href="#" class="text-white text-decoration-none">lorem ipsum</a>
+                </div>
+            </div>
+        </div>
 
     </section>
     <!-- fine jumbotron -->

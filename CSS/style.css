@@ -1,0 +1,29 @@
+/* header */
+
+header{
+    height: 100px;
+}
+
+#header_top{
+    background-color: black;
+}
+
+
+
+/* debug */
+
+.debug #header_bottom{
+    height: 70px;
+    background-color: brown;
+}
+
+.debug .box{
+    height: 50px;
+    width: 50px;
+    background-color: cornflowerblue;
+}
+
+.debug #jumbotron{
+    height: 500px;
+    background-color: darkcyan;
+}
