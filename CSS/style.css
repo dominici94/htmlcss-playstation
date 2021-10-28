@@ -48,6 +48,10 @@ header{
 #nuove_uscite{
     background-color: rgb(31, 31, 31);
 }
+
+#ps_plus{
+    background-color: rgb(190, 188, 187);
+}
 /* debug */
 
 /* .debug #header_bottom{
