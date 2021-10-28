@@ -14,12 +14,13 @@
 
         <!-- inizio header top -->
         <section id="header_top">
-            <div class="container-fluid text-uppercase text-white text-end">
-                <h2>Sony</h2>
-                <!-- mb-0 a h2 se voglio togliere il margine tra header top e bottom -->
-                <!-- cambiare il font scritta sony -->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="offset-10 col-2 p-1">
+                            <img src="img/sony_logo.svg" class="img-fluid" alt="logo sony">
+                    </div>
+                </div>
             </div>
-
         </section>
         <!-- fine header top -->
 
@@ -27,15 +28,65 @@
         <section id="header_bottom">
             <!-- xs-sm-md logo sony a sx hamburger menu a dx -->
             <!-- lg  2 nav  -->
-            <div class="container-fluid">
+            <!-- <div class="container-fluid">
                 <div class="row">
                     <div class="col-12">
                         <div class="box"></div>
                     </div>
                 </div>
 
-            </div>
+            </div> -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                      <img src="img/play_logo.svg" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Giochi<img src="img/chevron-down-solid.svg" alt="" class="arrow_down"></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Hardware<img src="img/chevron-down-solid.svg" alt="" class="arrow_down"></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Servizi<img src="img/chevron-down-solid.svg" alt="" class="arrow_down"></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Novità<img src="img/chevron-down-solid.svg" alt="" class="arrow_down"></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Fai acquisti<img src="img/chevron-down-solid.svg" alt="" class="arrow_down"></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Supporto<img src="img/chevron-down-solid.svg" alt="" class="arrow_down"></a>
+                            </li>
+                        </ul>
 
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">My PlayStation<img src="img/chevron-down-solid.svg" alt="" class="arrow_down"></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="btn btn-dark rounded-pill" href="#" role="button">Accedi</a>
+                            </li>
+                            <li class="nav-item ms-3">
+                                <a class="navbar-brand" href="#">
+                                    <img src="img/lens.svg" class="lens" alt="lente">
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    
+                        
+                    </div>
+                </div>
+            </nav>
+            
         </section>
         <!-- fine header bottom -->
 

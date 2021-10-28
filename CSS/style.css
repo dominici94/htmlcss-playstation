@@ -1,11 +1,22 @@
-/* header */
 
+
+/* header */
+/* 
 header{
     height: 100px;
-}
+} */
 
 #header_top{
     background-color: black;
+}
+
+.arrow_down{
+    height: 10px;
+    width: 15px;
+}
+
+.lens{
+    width: 20px;
 }
 
 /* main */
@@ -15,10 +26,10 @@ header{
 
 /* debug */
 
-.debug #header_bottom{
+/* .debug #header_bottom{
     height: 70px;
     background-color: brown;
-}
+} */
 
 .debug .box{
     height: 100px;
