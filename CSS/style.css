@@ -22,7 +22,7 @@ header{
 /* jumbotron */
 
 #jumbotron{
-    height: 600px;
+    height: 700px;
     background-image: url(../img/jumbo-bg.png);
     background-position: center;
     background-size: cover;
@@ -34,7 +34,16 @@ header{
     border-radius: 20px;
 }
 
+#it_takes_two{
+    height: 670px;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+}
 
+.ms_bolder{
+    font-size: 40px;
+}
 /* debug */
 
 /* .debug #header_bottom{
@@ -48,12 +57,12 @@ header{
     border: 1px solid black;
 }
 
-.debug #jumbotron{
+/* .debug #jumbotron{
     height: 500px;
     background-color: darkcyan;
-}
+} */
 
-.debug #it_takes_two{
+/* .debug #it_takes_two{
     height: 450px;
     background-color: darkgray;
-}
+} */
