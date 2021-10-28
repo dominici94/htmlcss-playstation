@@ -19,6 +19,15 @@ header{
     width: 20px;
 }
 
+/* jumbotron */
+
+#jumbotron{
+    height: 600px;
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
+    background-size: cover;
+}
+
 /* main */
 
 
