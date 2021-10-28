@@ -44,6 +44,10 @@ header{
 .ms_bolder{
     font-size: 40px;
 }
+
+#nuove_uscite{
+    background-color: rgb(31, 31, 31);
+}
 /* debug */
 
 /* .debug #header_bottom{
