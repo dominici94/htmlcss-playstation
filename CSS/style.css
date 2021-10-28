@@ -30,7 +30,9 @@ header{
 
 /* main */
 
-
+.ms_rounded{
+    border-radius: 20px;
+}
 
 
 /* debug */
