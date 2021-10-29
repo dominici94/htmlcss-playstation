@@ -30,6 +30,14 @@ header{
 
 /* main */
 
+sup{
+    font-size: .7rem;
+}
+
+.ms_opacity{
+    opacity: 50%;
+}
+
 .ms_rounded{
     border-radius: 20px;
 }
